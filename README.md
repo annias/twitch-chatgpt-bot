@@ -12,15 +12,15 @@
 
 ## Installation
 
-> First of all, lets install some modules:
+> 1. First of all, lets install some modules:
 ```
 pip install twitchio
 pip install asyncio
 pip install revChatGPT
 ```
-> Next up [download](https://github.com/atikiNBTW/twitch-chatgpt-bot/archive/refs/heads/main.zip) this bot and unpack it!
+> 2. Next up [download](https://github.com/atikiNBTW/twitch-chatgpt-bot/archive/refs/heads/main.zip) this bot and unpack it!
 
-> Then open a [config.json](/config.json) file and rewrite some options there:
+> 3. Then open a [config.json](/config.json) file and rewrite some options there:
 ```
     "bot-token": "TOKEN",
     "bot-prefix": "PREFIX",
