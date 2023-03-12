@@ -1,6 +1,10 @@
 from twitchio.ext import commands
 from src import responses
 import asyncio
+import json
+
+with open("config.json", "r") as f:
+    config = json.load(f)
 
 async def split_message(ctx, message):
   if len(message) <= 500:
@@ -16,9 +20,9 @@ async def split_message(ctx, message):
 
 class Bot(commands.Bot):
   def __init__(self):
-    super().__init__(token=,
-                     prefix=,
-                     initial_channels)
+    super().__init__(token=config['bot-token'],
+                     prefix=config['bot-prefix'],
+                     initial_channels=config['bot-channels'])
 
   async def event_ready(self):
     print(f'Logged in as | {self.nick}')
