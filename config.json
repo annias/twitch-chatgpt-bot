@@ -2,5 +2,5 @@
     "bot-token": "TOKEN",
     "bot-prefix": "PREFIX",
     "openAI_key": "API_KEY",
-    "channels": "['atikiNBTW', 'channel2']"
+    "channels": "['atikiNBTW', 'channel2'...]"
 }
