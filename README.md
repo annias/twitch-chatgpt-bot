@@ -6,8 +6,8 @@
     
    + [Installation](#Installation)
    * [OAuth obtaining](#OAuth_obtaining)
-   - [Usage](#Contributing)
    + [OpenAI_API](#OpenAI_API)
+   - [Usage](#Usage)
    * [Contributing](#Contributing)
 
 ### Installation
